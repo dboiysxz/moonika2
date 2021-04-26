@@ -197,7 +197,7 @@ header {
 }
 
 .cv {
-    background: white;
+    background: rgba(255,255,255,0.9);
     border-radius: 0.5em;
     width: 100%;
     max-width: 70rem;
@@ -249,6 +249,19 @@ header {
     left: 1rem;
     z-index: 40;
 }
+
+
+ .cursor {
+         color: white;
+         animation: blink 0.5s infinite;
+         font-weight: 400;
+ }
+
+ @keyframes blink {
+             0% { opacity: 1 }
+             50% { opacity: 0 }
+             100% { opacity: 1 }
+ }
 /*================
     MEDIA QUERIES
 ================*/
